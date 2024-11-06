@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #FFF0F5;
+    color: #000000;
+}
+
+/* Header */
+.header {
+    background-color: #000000;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header__navLink {
+    color: #FFF0F5;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Apresentação e Sobre */
+.apresentacao, .sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    text-align: center;
+    padding: 40px;
+    flex-wrap: wrap;  
+}
+
+.apresentacao__conteudo, .sobre__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    max-width: 600px;  
+}
+
+.apresentacao__conteudoIcones {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.apresentacao__conteudoIconesGithub, .apresentacao__conteudoIconesLinkedin {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FF66C4;
+    border: 1px solid #000000;
+}
+
+.apresentacao__conteudoIconesGithub:hover, .apresentacao__conteudoIconesLinkedin:hover {
+    background-color: #FFF0F5;
+}
+
+.apresentacao__foto, .sobre__imagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.sobre__imagem {
+    width: 200px;
+    border: 4px solid #FF66C4;
+    width: 100%;         
+    max-width: 250px;    
+    height: auto;        
+    border-radius: 50%;
+    margin: 0 auto; 
+}
+
+/* Seções */
+.skills, .hobbies, .formacao, .projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Cartões */
+.skills__cartoes, .hobbies__cartoes, .formacao__cartoes, .projetos__cartoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.skills__cartoesCartao, .hobbies__cartoesCartao, .formacao__cartoesCartao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F4F4F4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 180px;
+    border: 1px solid #FF66C4;
+    height: auto;
+}
+
+.projetos__cartoesCartao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F4F4F4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 350px;
+    border: 1px solid #FF66C4;
+    height: auto;
+}
+
+.skills__cartoesCartaoNome, .hobbies__cartoesCartaoNome, .formacao__cartoesCartaoNome, .projetos__cartoesCartaoNome {
+    margin-top: 10px;
+}
+
+.skills__imagem, .hobbies__imagem, .formacao__imagem, .projetos__imagem {
+    width: 100%;
+    height: auto;
+}
+
+.projetos__cartoesCartaoAcesso {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.projetos__cartoesCartaoAcessoLinkRepositorio, .projetos__cartoesCartaoAcessoLinkDemonstracao {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FF66C4;
+    border: 1px solid #000000;
+}
+
+.projetos__cartoesCartaoAcessoLinkRepositorio:hover, .projetos__cartoesCartaoAcessoLinkDemonstracao:hover {
+    background-color: #FFF0F5;
+}
+
+/* Formulário de Contato */
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    text-align: left;
+}
+
+.contato__form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contato__formFieldset {
+    padding: 20px;
+    border: 1px solid #FF66C4;
+}
+
+.contato__formFieldsetInput, .contato__formFieldsetBotao {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #000000;
+}
+
+textarea {
+    font-family: "Raleway", sans-serif;
+}
+
+.contato__formFieldsetBotao {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FF66C4;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+/* Títulos */
+.apresentacao__conteudoTitulo, .sobre__conteudoTitulo, .skills__titulo, .hobbies__titulo, .formacao__titulo, .projetos__titulo, .contato__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    color: #FFF0F5;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px){
+    .header__nav{
+        display: none;
+    }
+
+    .apresentacao, .sobre{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao__foto{
+        width: 100%;
+    }
+
+    .sobre__imagem{
+        width: 50%;
+    }
+}
+
+
+
+    
