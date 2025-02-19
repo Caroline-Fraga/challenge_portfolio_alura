@@ -133,7 +133,7 @@ body {
     background: #F4F4F4;
     padding: 20px;
     border-radius: 5px;
-    width: 350px;
+    width: 650px;
     border: 1px solid #FF66C4;
     height: auto;
 }
@@ -159,7 +159,7 @@ body {
     color: #000000;
     font-size: 16px;
     font-weight: 300;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     background-color: #FF66C4;
     border: 1px solid #000000;
@@ -202,6 +202,7 @@ body {
 
 textarea {
     font-family: "Raleway", sans-serif;
+    height: 20vh;
 }
 
 .contato__formFieldsetBotao {
